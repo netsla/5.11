@@ -9,7 +9,7 @@ header {
     justify-content: center;
     height: 300px;
     background: url('https://live.staticflickr.com/8198/8248249009_df230987ae_h.jpg')
-    no-repeat center / cover;
+    no-repeat bottom / cover;
     color: #fff;
 }
 #new {
