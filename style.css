@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background: url('https://live.staticflickr.com/8198/8248249009_df230987ae_h.jpg')
+    no-repeat left / cover;
+    color: #fff;
+}
+#new {
+    text-transform: uppercase;
+}
+.news {
+    background-color: #fff;
+}
+section:nth-of-type(2n) {
+    background: #dfeff9;
+}
+section:nth-child(odd) h2::before {
+    content: "New ";
+    color: red;
+    font-style: italic ;
+}
+article {
+    width: 768px;
+    margin: 0 auto 0px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+article a:hover {
+    color: #0085a1;
+}
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.article-meta {
+    color: rgb(65, 71, 76);
+    margin-bottom: 5px;
+}
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links {
+    margin-bottom: 50px;
+}
+footer .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+}
+.copyright {
+    color: rgb(108, 117, 125);
+}
